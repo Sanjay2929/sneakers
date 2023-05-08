@@ -388,7 +388,8 @@ html {
   gap: 91px;
 }
 .react-tabs__tab:focus{
-  outline: inset;
+  outline: inset ;
+
 }
 .react-tabs__tab {
   display: inline-block;
