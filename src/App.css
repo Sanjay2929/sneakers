@@ -164,14 +164,17 @@ body,
 html {
   overflow-x: hidden;
 }
-.nav li a {
+.mobile_nav li a {
   color: var(--clr-black);
   font-weight: 400;
   font-size: var(--fs-18);
   font-family: "Roboto", sans-serif;
 }
+.cursior_pointer {
+  cursor: pointer !important;
+}
 
-.nav li a:hover {
+.mobile_nav li a:hover {
   -webkit-text-stroke: 1px;
 }
 .py_15 {
@@ -196,8 +199,8 @@ html {
   margin-top: 30px;
 }
 .py_88_81 {
-  padding-top: 88px;
-  padding-bottom: 81px;
+  padding-bottom: 69px;
+  padding-top: 37px;
 }
 .gap_2 {
   gap: 2px;
@@ -222,7 +225,7 @@ html {
 }
 .addCart {
   background: #28a745;
-  border-radius: 21px;
+  border-radius: 26px;
   padding: 9px 32px;
 }
 
@@ -366,10 +369,14 @@ html {
       padding: 0 -27px;
   } */
 .slider_shadoww {
-  box-shadow: 8px 3px 9px rgba(0, 0, 0, 0.2);
+  box-shadow: 8px 3px 9px rgb(169 167 167 / 20%);
+  /* box-shadow: 23px 44px 47px rgba(0, 0, 0, 0.2); */
   border-radius: 10px;
 }
-
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
 .px_19_16 {
   padding-left: 19px;
   padding-right: 16px;
@@ -387,34 +394,34 @@ html {
   display: flex;
   gap: 91px;
 }
-.react-tabs__tab:focus{
-  outline: inset ;
-
+.react-tabs__tab:focus {
+  outline: unset !important;
 }
 .react-tabs__tab {
   display: inline-block;
   border: 0 !important;
+  /* border-bottom: 1px solid red !important; */
   color: var(--clr-black);
   font-weight: 400 !important;
   font-size: 20px !important;
   font-family: "Poppins", sans-serif !important;
   position: relative;
   list-style: none;
-  padding: 6px 12px 6px 0 !important;
+  /* padding: 6px 12px 6px 0 !important; */
   cursor: pointer;
 }
 .react-tabs__tab--selected {
   position: relative;
-  background: #fff;
+  background: unset !important;
   border-bottom: 3px solid red !important;
-  /* border-color: black; */
   color: var(--clr-red) !important;
   font-weight: 400;
-  border-color: var(--clr-red) !important;
   font-size: var(--fs-20);
   font-family: "Poppins", sans-serif;
 }
-
+.lh_37 {
+  line-height: 25px;
+}
 
 /* .max_w_312 {
   max-width: 312px;
@@ -435,7 +442,7 @@ html {
 
 .products {
   border: 1px solid rgba(0, 0, 0, 0.12);
-  border-radius: 17px;
+  border-radius: 30px;
 }
 .px_14 {
   padding-left: 14px;
@@ -445,8 +452,8 @@ html {
   padding-bottom: 30px;
 }
 .py_20 {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 12px;
+  padding-bottom: 12px;
 }
 .scale_img {
   transition: all linear 0.5s;
@@ -454,13 +461,10 @@ html {
 .shoesImg:hover .scale_img {
   transform: scale(1.1);
 }
-.product_boxs:hover {
-  outline: 5px solid var(--clr-gray);
-  outline-offset: -2.5px;
-}
+
 .pageNumber {
-  width: 30px;
-  height: 30px;
+  width: 39px;
+  height: 39px;
   border-radius: 9.21875px;
   box-shadow: 3px 5px 22px rgba(0, 0, 0, 0.08);
 }
@@ -499,33 +503,28 @@ html {
 .logoposition {
   left: -12px;
 }
+.addbtn:hover {
+  background-color: var(--clr-lightGray);
+}
 
 .z_11 {
   z-index: 11;
 }
-.addbtn:hover {
-  animation: addButton 1s linear infinite alternate;
+.socialIcon_hover {
+  transition: all 0.3s linear !important;
 }
-.socialIcon_hover{
-  transition: all linear 1s;
-}
-.socialIcon_hover:hover{
- top: -10px;
- z-index: 2;
-}
-@keyframes addButton {
-  0% {
-    background-color: #28a745;
-  }
-  100% {
-    background-color: var(--clr-orange);
-  }
+.socialIcon_hover:hover {
+  transform: translateY(-30%);
+  z-index: 2;
 }
 
 @media (max-width: 576px) {
   .react-tabs__tab-list {
     gap: 30px;
     overflow-x: auto;
+  }
+  .max_w_logo {
+    max-width: 45px;
   }
 }
 
@@ -534,12 +533,19 @@ html {
     font-size: 16px !important;
     padding: 6px 6px 6px 0 !important;
   }
+  .py_88_81 {
+    padding-top: 88px;
+    padding-bottom: 81px;
+  }
   .react-tabs__tab-list {
     gap: 30px;
   }
+  .max_w_logo {
+    max-height: 70px;
+  }
 }
 
-@media (max-width: 992px) {
+@media (max-width: 991px) {
   .mobile_nav {
     position: fixed;
     top: 0;
@@ -549,7 +555,7 @@ html {
     background-color: #999999;
     z-index: 10;
   }
-  .nav_left_100 {
+  .nav_left_0 {
     left: 0;
   }
 }
@@ -569,10 +575,27 @@ html {
     padding: 11px 18px;
   }
 }
-@media (min-widdth: 992px) {
+@media (min-width: 992px) {
   .lh_37 {
-    line-height: 37px;
+    line-height: 37px !important;
+  }
+  .py_20 {
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
 }
 
+.footer_links li a:hover {
+  color: var(--clr-orange);
+  -webkit-text-stroke: 1px;
+}
+.size_number:hover {
+  background-color: #808082 !important;
+}
+.size_number:hover h5 {
+  color: var(--clr-white) !important;
+}
 
+.products:hover {
+  box-shadow: 0px 2px 13px rgba(0, 0, 0, 0.1);
+}

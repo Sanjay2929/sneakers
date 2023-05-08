@@ -4,7 +4,7 @@ import redShoes from "../assets/img/png/redShoesProduct.png";
 const SingleProduct = (props) => {
   return (
     <>
-      <div className=" overflow-hidden products product_boxs">
+      <div className=" overflow-hidden products">
         <div className=" position-relative overflow-hidden mb-3 shoesImg">
           <img className="w-100 scale_img" src={props.redShoes} alt="img" />
           <div className=" position-absolute  discount w-100 ">
@@ -30,6 +30,7 @@ const SingleProduct = (props) => {
               </div>
             </div>
             <svg
+              className="cursior_pointer "
               width="49"
               height="49"
               viewBox="0 0 49 49"

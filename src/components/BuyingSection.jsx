@@ -12,7 +12,6 @@ const BuyingSection = () => {
     slidesToShow: 4,
     slidesToScroll: 1,
     responsive: [
-    
       {
         breakpoint: 1200,
         settings: {
@@ -30,8 +29,7 @@ const BuyingSection = () => {
       {
         breakpoint: 768,
         settings: {
-          centerMode: true,
-          slidesToShow: 1.5,
+          slidesToShow: 2,
           slidesToScroll: 1,
         },
       },
@@ -52,7 +50,11 @@ const BuyingSection = () => {
             You can buy the Nike Air Max 97 Men's Shoe - White here:
           </h2>
           <Slider {...settings} className="py-4">
-            <div className="slider_shadoww mb-3" data-aos="flip-left"  data-aos-delay="300">
+            <div
+              className="slider_shadoww mb-3"
+              data-aos="flip-left"
+              data-aos-delay="300"
+            >
               <div className=" pad_27_44 footlocker mb-2">
                 <img className="w-100" src={footlocker} alt="img" />
               </div>
@@ -66,7 +68,7 @@ const BuyingSection = () => {
                       &#8364;179,99
                     </h4>
                   </div>
-                  <h4 className="fs_10 clr_white ff_poppins fw_400 bestPrice">
+                  <h4 className="fs_10 cursior_pointer clr_white ff_poppins fw_400 bestPrice">
                     Best Price
                   </h4>
                 </div>
@@ -74,36 +76,40 @@ const BuyingSection = () => {
                   Size:
                 </h4>
                 <div className="d-flex w-100 gap_12 pb-2">
-                  <div className="d-flex justify-content-center align-items-center size_number w-100">
-                    <h5 className="ff-poppins fw_500 fs_16 clr_black18">41</h5>
+                  <div className="d-flex justify-content-center cursior_pointer align-items-center size_number w-100">
+                    <p className="ff-poppins fw_500 fs_16 clr_black18  mb-0">41</p>
                   </div>
-                  <div className="d-flex justify-content-center align-items-center size_number w-100">
-                    <h5 className="ff-poppins fw_500 fs_16 clr_black18">41</h5>
+                  <div className="d-flex justify-content-center cursior_pointer align-items-center size_number w-100">
+                    <p className="ff-poppins fw_500 fs_16 clr_black18  mb-0">42</p>
                   </div>
-                  <div className="d-flex justify-content-center align-items-center size_number w-100">
-                    <h5 className="ff-poppins fw_500 fs_16 clr_black18">41</h5>
+                  <div className="d-flex justify-content-center cursior_pointer align-items-center size_number w-100">
+                    <p className="ff-poppins fw_500 fs_16 clr_black18  mb-0">43</p>
                   </div>
                 </div>
                 <div className="d-flex w-100 gap_12 pt-1 pb-3">
-                  <div className="d-flex justify-content-center align-items-center size_number w-100">
-                    <h5 className="ff-poppins fw_500 fs_16 clr_black18">41</h5>
+                  <div className="d-flex justify-content-center cursior_pointer align-items-center size_number w-100">
+                    <p className="ff-poppins fw_500 fs_16 clr_black18  mb-0">44</p>
                   </div>
-                  <div className="d-flex justify-content-center align-items-center size_number w-100">
-                    <h5 className="ff-poppins fw_500 fs_16 clr_black18">41</h5>
+                  <div className="d-flex justify-content-center cursior_pointer align-items-center size_number w-100">
+                    <p className="ff-poppins fw_500 fs_16 clr_black18  mb-0">45</p>
                   </div>
-                  <div className="d-flex justify-content-center align-items-center size_number w-100">
-                    <h5 className="ff-poppins fw_500 fs_16 clr_black18">41</h5>
+                  <div className="d-flex justify-content-center cursior_pointer align-items-center size_number w-100">
+                    <p className="ff-poppins fw_500 fs_16 clr_black18  mb-0">46</p>
                   </div>
                 </div>
                 <h3 className=" fw_400 fs_16 ff_poppins clr_darkgreen pt-1 pb-2">
                   View this product as:
                 </h3>
-                <h3 className="fw_600 fs_16 ff_poppins clr_blue">
+                <h3 className="fw_600 cursior_pointer fs_16 ff_poppins clr_blue">
                   Foot Locker NL
                 </h3>
               </div>
             </div>
-            <div className="slider_shadoww mb-3" data-aos="flip-left"  data-aos-delay="600">
+            <div
+              className="slider_shadoww mb-3"
+              data-aos="flip-left"
+              data-aos-delay="600"
+            >
               <div className=" pad_27_44 footlocker mb-2">
                 <img className="w-100" src={sideStep} alt="img" />
               </div>
@@ -117,7 +123,7 @@ const BuyingSection = () => {
                       &#8364;179,99
                     </h4>
                   </div>
-                  <h4 className="fs_10 clr_white ff_poppins fw_400 bestPrice">
+                  <h4 className="fs_10 cursior_pointer clr_white ff_poppins fw_400 bestPrice">
                     Best Price
                   </h4>
                 </div>
@@ -125,36 +131,40 @@ const BuyingSection = () => {
                   Size:
                 </h4>
                 <div className="d-flex w-100 gap_12 pb-2">
-                  <div className="d-flex justify-content-center align-items-center size_number w-100">
-                    <h5 className="ff-poppins fw_500 fs_16 clr_black18">41</h5>
+                  <div className="d-flex justify-content-center cursior_pointer align-items-center size_number w-100">
+                    <p className="ff-poppins fw_500 fs_16 clr_black18  mb-0">41</p>
                   </div>
-                  <div className="d-flex justify-content-center align-items-center size_number w-100">
-                    <h5 className="ff-poppins fw_500 fs_16 clr_black18">41</h5>
+                  <div className="d-flex justify-content-center cursior_pointer align-items-center size_number w-100">
+                    <p className="ff-poppins fw_500 fs_16 clr_black18  mb-0">42</p>
                   </div>
-                  <div className="d-flex justify-content-center align-items-center size_number w-100">
-                    <h5 className="ff-poppins fw_500 fs_16 clr_black18">41</h5>
+                  <div className="d-flex justify-content-center cursior_pointer align-items-center size_number w-100">
+                    <p className="ff-poppins fw_500 fs_16 clr_black18  mb-0">43</p>
                   </div>
                 </div>
                 <div className="d-flex w-100 gap_12 pt-1 pb-3">
-                  <div className="d-flex justify-content-center align-items-center size_number w-100">
-                    <h5 className="ff-poppins fw_500 fs_16 clr_black18">41</h5>
+                  <div className="d-flex justify-content-center cursior_pointer align-items-center size_number w-100">
+                    <p className="ff-poppins fw_500 fs_16 clr_black18  mb-0">44</p>
                   </div>
-                  <div className="d-flex justify-content-center align-items-center size_number w-100">
-                    <h5 className="ff-poppins fw_500 fs_16 clr_black18">41</h5>
+                  <div className="d-flex justify-content-center cursior_pointer align-items-center size_number w-100">
+                    <p className="ff-poppins fw_500 fs_16 clr_black18  mb-0">45</p>
                   </div>
-                  <div className="d-flex justify-content-center align-items-center size_number w-100">
-                    <h5 className="ff-poppins fw_500 fs_16 clr_black18">41</h5>
+                  <div className="d-flex justify-content-center cursior_pointer align-items-center size_number w-100">
+                    <p className="ff-poppins fw_500 fs_16 clr_black18  mb-0">46</p>
                   </div>
                 </div>
                 <h3 className=" fw_400 fs_16 ff_poppins clr_darkgreen pt-1 pb-2">
                   View this product as:
                 </h3>
-                <h3 className="fw_600 fs_16 ff_poppins clr_blue">
+                <h3 className="fw_600 cursior_pointer fs_16 ff_poppins clr_blue">
                   Foot Locker NL
                 </h3>
               </div>
             </div>
-            <div className="slider_shadoww mb-3" data-aos="flip-left"  data-aos-delay="900">
+            <div
+              className="slider_shadoww mb-3"
+              data-aos="flip-left"
+              data-aos-delay="900"
+            >
               <div className=" pad_27_44 footlocker mb-2">
                 <img className="w-100" src={footlocker} alt="img" />
               </div>
@@ -168,7 +178,7 @@ const BuyingSection = () => {
                       &#8364;179,99
                     </h4>
                   </div>
-                  <h4 className="fs_10 clr_white ff_poppins fw_400 bestPrice">
+                  <h4 className="fs_10 cursior_pointer clr_white ff_poppins fw_400 bestPrice">
                     Best Price
                   </h4>
                 </div>
@@ -176,36 +186,40 @@ const BuyingSection = () => {
                   Size:
                 </h4>
                 <div className="d-flex w-100 gap_12 pb-2">
-                  <div className="d-flex justify-content-center align-items-center size_number w-100">
-                    <h5 className="ff-poppins fw_500 fs_16 clr_black18">41</h5>
+                  <div className="d-flex justify-content-center cursior_pointer align-items-center size_number w-100">
+                    <p className="ff-poppins fw_500 fs_16 clr_black18  mb-0">41</p>
                   </div>
-                  <div className="d-flex justify-content-center align-items-center size_number w-100">
-                    <h5 className="ff-poppins fw_500 fs_16 clr_black18">41</h5>
+                  <div className="d-flex justify-content-center cursior_pointer align-items-center size_number w-100">
+                    <p className="ff-poppins fw_500 fs_16 clr_black18  mb-0">42</p>
                   </div>
-                  <div className="d-flex justify-content-center align-items-center size_number w-100">
-                    <h5 className="ff-poppins fw_500 fs_16 clr_black18">41</h5>
+                  <div className="d-flex justify-content-center cursior_pointer align-items-center size_number w-100">
+                    <p className="ff-poppins fw_500 fs_16 clr_black18  mb-0">43</p>
                   </div>
                 </div>
                 <div className="d-flex w-100 gap_12 pt-1 pb-3">
-                  <div className="d-flex justify-content-center align-items-center size_number w-100">
-                    <h5 className="ff-poppins fw_500 fs_16 clr_black18">41</h5>
+                  <div className="d-flex justify-content-center cursior_pointer align-items-center size_number w-100">
+                    <p className="ff-poppins fw_500 fs_16 clr_black18  mb-0">44</p>
                   </div>
-                  <div className="d-flex justify-content-center align-items-center size_number w-100">
-                    <h5 className="ff-poppins fw_500 fs_16 clr_black18">41</h5>
+                  <div className="d-flex justify-content-center cursior_pointer align-items-center size_number w-100">
+                    <p className="ff-poppins fw_500 fs_16 clr_black18  mb-0">45</p>
                   </div>
-                  <div className="d-flex justify-content-center align-items-center size_number w-100">
-                    <h5 className="ff-poppins fw_500 fs_16 clr_black18">41</h5>
+                  <div className="d-flex justify-content-center cursior_pointer align-items-center size_number w-100">
+                    <p className="ff-poppins fw_500 fs_16 clr_black18  mb-0">46</p>
                   </div>
                 </div>
                 <h3 className=" fw_400 fs_16 ff_poppins clr_darkgreen pt-1 pb-2">
                   View this product as:
                 </h3>
-                <h3 className="fw_600 fs_16 ff_poppins clr_blue">
+                <h3 className="fw_600 cursior_pointer fs_16 ff_poppins clr_blue">
                   Foot Locker NL
                 </h3>
               </div>
             </div>
-            <div className="slider_shadoww mb-3" data-aos="flip-left"  data-aos-delay="1200">
+            <div
+              className="slider_shadoww mb-3"
+              data-aos="flip-left"
+              data-aos-delay="1200"
+            >
               <div className=" pad_27_44 footlocker mb-2">
                 <img className="w-100" src={sideStep} alt="img" />
               </div>
@@ -219,7 +233,7 @@ const BuyingSection = () => {
                       &#8364;179,99
                     </h4>
                   </div>
-                  <h4 className="fs_10 clr_white ff_poppins fw_400 bestPrice">
+                  <h4 className="fs_10 cursior_pointer clr_white ff_poppins fw_400 bestPrice">
                     Best Price
                   </h4>
                 </div>
@@ -227,31 +241,31 @@ const BuyingSection = () => {
                   Size:
                 </h4>
                 <div className="d-flex w-100 gap_12 pb-2">
-                  <div className="d-flex justify-content-center align-items-center size_number w-100">
-                    <h5 className="ff-poppins fw_500 fs_16 clr_black18">41</h5>
+                  <div className="d-flex justify-content-center cursior_pointer align-items-center size_number w-100">
+                    <p className="ff-poppins fw_500 fs_16 clr_black18  mb-0">41</p>
                   </div>
-                  <div className="d-flex justify-content-center align-items-center size_number w-100">
-                    <h5 className="ff-poppins fw_500 fs_16 clr_black18">41</h5>
+                  <div className="d-flex justify-content-center cursior_pointer align-items-center size_number w-100">
+                    <p className="ff-poppins fw_500 fs_16 clr_black18  mb-0">42</p>
                   </div>
-                  <div className="d-flex justify-content-center align-items-center size_number w-100">
-                    <h5 className="ff-poppins fw_500 fs_16 clr_black18">41</h5>
+                  <div className="d-flex justify-content-center cursior_pointer align-items-center size_number w-100">
+                    <p className="ff-poppins fw_500 fs_16 clr_black18  mb-0">43</p>
                   </div>
                 </div>
                 <div className="d-flex w-100 gap_12 pt-1 pb-3">
-                  <div className="d-flex justify-content-center align-items-center size_number w-100">
-                    <h5 className="ff-poppins fw_500 fs_16 clr_black18">41</h5>
+                  <div className="d-flex justify-content-center cursior_pointer align-items-center size_number w-100">
+                    <p className="ff-poppins fw_500 fs_16 clr_black18  mb-0">44</p>
                   </div>
-                  <div className="d-flex justify-content-center align-items-center size_number w-100">
-                    <h5 className="ff-poppins fw_500 fs_16 clr_black18">41</h5>
+                  <div className="d-flex justify-content-center cursior_pointer align-items-center size_number w-100">
+                    <p className="ff-poppins fw_500 fs_16 clr_black18  mb-0">45</p>
                   </div>
-                  <div className="d-flex justify-content-center align-items-center size_number w-100">
-                    <h5 className="ff-poppins fw_500 fs_16 clr_black18">41</h5>
+                  <div className="d-flex justify-content-center cursior_pointer align-items-center size_number w-100">
+                    <p className="ff-poppins fw_500 fs_16 clr_black18  mb-0">46</p>
                   </div>
                 </div>
                 <h3 className=" fw_400 fs_16 ff_poppins clr_darkgreen pt-1 pb-2">
                   View this product as:
                 </h3>
-                <h3 className="fw_600 fs_16 ff_poppins clr_blue">
+                <h3 className="fw_600 cursior_pointer fs_16 ff_poppins clr_blue">
                   Foot Locker NL
                 </h3>
               </div>
@@ -264,4 +278,3 @@ const BuyingSection = () => {
 };
 
 export default BuyingSection;
-

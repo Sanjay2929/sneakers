@@ -22,8 +22,10 @@ const Navbar = () => {
             className=" d-flex justify-content-between align-items-center flex-nowrap py_15"
             data-aos="fade-right"
           >
-            <img src={logo} alt="logo" />
-            <div className="max_w_692">
+            <a href="#">
+              <img className="max_w_logo" src={logo} alt="logo" />
+            </a>
+            <div className="max_w_692 ms-4">
               <img className="w-100" src={navImg} alt="img" />
             </div>
           </div>
@@ -31,32 +33,31 @@ const Navbar = () => {
         <div className="nav_outline">
           <Container>
             <ul
-              data-aos="fade-left"
               className={
                 first
-                  ? " d-flex flex-lg-row flex-column justify-content-center align-items-center mobile_nav justify-content-lg-end gap_15 nav py_29"
-                  : " d-flex flex-lg-row flex-column justify-content-center align-items-center mobile_nav justify-content-lg-end gap_15 nav py_29 nav_left_100"
+                  ? " d-flex flex-lg-row flex-column justify-content-center align-items-center mobile_nav justify-content-lg-end gap_15 mb-0 py_29"
+                  : " d-flex flex-lg-row flex-column justify-content-center align-items-center mobile_nav justify-content-lg-end gap_15  py_29 nav_left_0"
               }
             >
-              <li>
+              <li data-aos="fade-right" data-aos-delay="100">
                 <a href="#">HOME</a>
               </li>
-              <li>
+              <li data-aos="fade-right" data-aos-delay="200">
                 <a href="#">SNEAKERS KOPEN</a>
               </li>
-              <li>
+              <li data-aos="fade-right" data-aos-delay="300">
                 <a href="#">INTERVIEWS</a>
               </li>
-              <li>
+              <li data-aos="fade-right" data-aos-delay="400">
                 <a href="#">SALE</a>
               </li>
-              <li>
+              <li data-aos="fade-right" data-aos-delay="500">
                 <a href="#">SNEAKER VAN DE DAG</a>
               </li>
-              <li>
+              <li data-aos="fade-right" data-aos-delay="600">
                 <a href="#">SNEAKER FORUM</a>
               </li>
-              <li>
+              <li data-aos="fade-right" data-aos-delay="700">
                 <a href="#">BLOG</a>
               </li>
             </ul>

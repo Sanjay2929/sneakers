@@ -14,42 +14,106 @@ const Products = () => {
             RELATED PRODUCT
           </h3>
           <Row className="pb-5">
-            <Col xl={3} lg={4} sm={6} xs={12} className="py_20" data-aos="flip-left"  data-aos-delay="200">
+            <Col
+              xl={3}
+              lg={4}
+              sm={6}
+              xs={12}
+              className="py_20"
+              data-aos="flip-left"
+              data-aos-delay="200"
+            >
               <SingleProduct redShoes={redshoes1} />
             </Col>
-            <Col xl={3} lg={4} sm={6} xs={12} className="py_20" data-aos="flip-right"  data-aos-delay="400">
+            <Col
+              xl={3}
+              lg={4}
+              sm={6}
+              xs={12}
+              className="py_20"
+              data-aos="flip-right"
+              data-aos-delay="400"
+            >
               <SingleProduct redShoes={grayshoes1} />
             </Col>
-            <Col xl={3} lg={4} sm={6} xs={12} className="py_20" data-aos="flip-left"  data-aos-delay="600">
+            <Col
+              xl={3}
+              lg={4}
+              sm={6}
+              xs={12}
+              className="py_20"
+              data-aos="flip-left"
+              data-aos-delay="600"
+            >
               <SingleProduct redShoes={redshoes1} />
             </Col>
-            <Col xl={3} lg={4} sm={6} xs={12} className="py_20" data-aos="flip-right"  data-aos-delay="800">
+            <Col
+              xl={3}
+              lg={4}
+              sm={6}
+              xs={12}
+              className="py_20"
+              data-aos="flip-right"
+              data-aos-delay="800"
+            >
               <SingleProduct redShoes={grayshoes1} />
             </Col>
-            <Col xl={3} lg={4} sm={6} xs={12} className="py_20" data-aos="flip-left"  data-aos-delay="1000">
+            <Col
+              xl={3}
+              lg={4}
+              sm={6}
+              xs={12}
+              className="py_20"
+              data-aos="flip-left"
+              data-aos-delay="1000"
+            >
               <SingleProduct redShoes={redshoes1} />
             </Col>
-            <Col xl={3} lg={4} sm={6} xs={12} className="py_20" data-aos="flip-right"  data-aos-delay="1200">
+            <Col
+              xl={3}
+              lg={4}
+              sm={6}
+              xs={12}
+              className="py_20"
+              data-aos="flip-right"
+              data-aos-delay="1200"
+            >
               <SingleProduct redShoes={grayshoes1} />
             </Col>
-            <Col xl={3} lg={4} sm={6} xs={12} className="py_20" data-aos="flip-left"  data-aos-delay="1400">
+            <Col
+              xl={3}
+              lg={4}
+              sm={6}
+              xs={12}
+              className="py_20"
+              data-aos="flip-left"
+              data-aos-delay="1400"
+            >
               <SingleProduct redShoes={redshoes1} />
             </Col>
-            <Col xl={3} lg={4} sm={6} xs={12} className="py_20" data-aos="flip-right"  data-aos-delay="1600">
+            <Col
+              xl={3}
+              lg={4}
+              sm={6}
+              xs={12}
+              className="py_20"
+              data-aos="flip-right"
+              data-aos-delay="1600"
+            >
               <SingleProduct redShoes={grayshoes1} />
             </Col>
           </Row>
           <div className="d-flex justify-content-end gap-2 pt-3">
-            <p className="pageNumber mb-0 clr_white fw_600 fs_24 ff_poppins d-flex justify-content-center align-items-center bg_orange ">
+            <p className="pageNumber cursior_pointer mb-0 clr_white fw_600 fs_24 ff_poppins d-flex justify-content-center align-items-center bg_orange ">
               1
             </p>
-            <p className="pageNumber mb-0 clr_black fw_600 fs_24 ff_poppins d-flex justify-content-center align-items-center ">
+            <p className="pageNumber cursior_pointer mb-0 clr_black fw_600 fs_24 ff_poppins d-flex justify-content-center align-items-center ">
               2
             </p>
-            <p className="pageNumber mb-0 clr_black fw_600 fs_24 ff_poppins d-flex justify-content-center align-items-center ">
+            <p className="pageNumber cursior_pointer mb-0 clr_black fw_600 fs_24 ff_poppins d-flex justify-content-center align-items-center ">
               3
             </p>
-            <button className="fw_400 fs_16 ff_poppins clr_darkgray pad_11_18 nextButton ms-2">
+            <button className="fw_400 fs_16 ff_poppins clr_darkgray pad_11_18 nextButton ms-2 cursior_pointer">
               Next{" "}
               <span>
                 <FaAngleDoubleRight />
