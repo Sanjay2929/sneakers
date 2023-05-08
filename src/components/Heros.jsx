@@ -25,10 +25,10 @@ const Heros = () => {
     <div>
       <section>
         <Container>
-          <Row className="align-items-center  ">
+          <Row className="align-items-center  py_88_81">
             <Col md={6}>
               <div
-                className="d-flex flex-column py_88_81 pe-lg-5"
+                className="d-flex flex-column  pe-lg-5"
                 data-aos="fade-up-right"
               >
                 <div className="show_img d-flex justify-content-center align-items-center overflow-hidden shoesImg">
@@ -50,7 +50,7 @@ const Heros = () => {
                 </div>
               </div>
             </Col>
-            <Col md={6} data-aos="fade-up-left">
+            <Col md={6} data-aos="fade-up-left pt-4 pt-md-0">
               <h3 className="fw_600 ff_poppins fs_30 clr_black pb-3">
                 PREMIUM MENS SPORTS LATHER KEDS
               </h3>
